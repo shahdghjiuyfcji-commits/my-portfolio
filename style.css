@@ -1,0 +1,88 @@
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+    line-height: 1.8;
+    padding: 30px;
+    directtion : rtl;
+    text-align:right;
+}
+
+h1 {
+    color: #a78bfa;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+h2 {
+    color: #38bdf8;
+    margin: 25px 0;
+    text-align: center;
+}
+
+h3 {
+    color: #c4b5fd;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #cbd5e1;
+    margin: 15px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: #1e293b;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 10px;
+    color: #38bdf8;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: #8b5cf6;
+    color: white;
+    transform: translateY(-5px);
+}
+
+body {
+    border-top: 5px solid #8b5cf6;
+.typing-text {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    width: 60ch;
+    animation: typing 4s steps(60, end) forwards, blink-caret 0.75s step-end infinite;
+    margin: 20px auto;
+    direction: rtl;
+    text-align: center;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 60ch; }
+
+}
+
+@keyframes blink-caret {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: #fff; }
+}
